@@ -1021,6 +1021,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810 -->
 
     <owl:ObjectProperty rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810">
+        <rdfs:comment>This is commend added to property as a change operation.</rdfs:comment>
         <rdfs:label>has name</rdfs:label>
     </owl:ObjectProperty>
     
