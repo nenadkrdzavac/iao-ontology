@@ -1283,6 +1283,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901 -->
 
     <owl:Class rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810"/>
+                <owl:allValuesFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
         <rdfs:label>name</rdfs:label>
     </owl:Class>
