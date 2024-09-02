@@ -1290,6 +1290,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>name</rdfs:label>
     </owl:Class>
     
