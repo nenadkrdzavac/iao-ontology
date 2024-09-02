@@ -1296,6 +1296,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
                 <owl:someValuesFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This commend is added due to class change, i.e. added rdfs comment.</rdfs:comment>
         <rdfs:label>name</rdfs:label>
     </owl:Class>
     
