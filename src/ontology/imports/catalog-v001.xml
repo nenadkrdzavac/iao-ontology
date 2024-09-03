@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1725363488406" name="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl" uri="iao-extracted.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1725363488406" name="http://openenergy-platform.org/ontology/oeo/imports/ro-extracted.owl" uri="ro-extracted.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1725363488406" name="http://openenergy-platform.org/ontology/oeo/imports/uo-extracted.owl" uri="uo-extracted.owl"/>
+    </group>
+</catalog>
