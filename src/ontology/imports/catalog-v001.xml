@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://materialdigital.de/eswc2021" uri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/pmd-onto-poster/main/pmd-onto.ttl"/>
     <uri id="User Entered Import Resolution" name="https://schema.coypu.org/global/2.3.ttl" uri="file:/C:/Users/KrdzavacN/git/coy-ontology/ontology/global/coy.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+<<<<<<< HEAD
         <uri id="Automatically generated entry, Timestamp=1725542806786" name="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl" uri="iao-extracted-swj.owl"/>
         <uri id="Automatically generated entry, Timestamp=1725542806786" name="http://openenergy-platform.org/ontology/oeo/imports/ro-extracted.owl" uri="ro-extracted.owl"/>
         <uri id="Automatically generated entry, Timestamp=1725542806786" name="http://openenergy-platform.org/ontology/oeo/imports/uo-extracted.owl" uri="uo-extracted.owl"/>
+=======
+        <uri id="Automatically generated entry, Timestamp=1725541724718" name="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl" uri="iao-extracted-swj.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1725541724718" name="http://openenergy-platform.org/ontology/oeo/imports/ro-extracted.owl" uri="ro-extracted.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1725541724718" name="http://openenergy-platform.org/ontology/oeo/imports/uo-extracted.owl" uri="uo-extracted.owl"/>
+>>>>>>> ad257b5072c509d1fed4f50551d84d94c212db29
     </group>
 </catalog>
