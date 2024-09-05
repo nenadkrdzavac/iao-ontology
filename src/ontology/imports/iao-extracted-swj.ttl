@@ -10,7 +10,7 @@
 
 <http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl> rdf:type owl:Ontology ;
                                                                          owl:versionIRI <http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl> ;
-                                                                         owl:imports <https://raw.githubusercontent.com/UCDavisLibrary/wine-ontology/master/wine-ontology.owl> ;
+                                                                         owl:imports <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/pmd-onto-poster/main/pmd-onto.ttl> ;
                                                                          rdfs:comment "This file contains externally imported content from the Information Artifact Ontology (IAO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT from the list of selected terms (iao-extract-w-hierarchy.txt, iao-extract-n-hierarchy.txt) located in the OEO-tools repository." .
 
 #################################################################
