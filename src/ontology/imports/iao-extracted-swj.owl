@@ -1235,6 +1235,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#a_second_new_class_name -->
+
+    <owl:Class rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#a_second_new_class_name"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
