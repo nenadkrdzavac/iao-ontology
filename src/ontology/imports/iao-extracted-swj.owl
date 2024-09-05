@@ -9,9 +9,8 @@
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl">
-        <owl:versionIRI rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"/>
-		<owl:imports rdf:resource="https://schema.coypu.org/global/2.3.ttl"/>
-		<owl:imports rdf:resource="https://raw.githubusercontent.com/tibonto/dr/master/DigitalReference.ttl"/>		
+        <owl:versionIRI rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"/>		
+		<owl:imports rdf:resource="https://raw.githubusercontent.com/UCDavisLibrary/wine-ontology/master/wine-ontology.owl"/>		
         <rdfs:comment>This file contains externally imported content from the Information Artifact Ontology (IAO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT from the list of selected terms (iao-extract-w-hierarchy.txt, iao-extract-n-hierarchy.txt) located in the OEO-tools repository.</rdfs:comment>
     </owl:Ontology>
     
