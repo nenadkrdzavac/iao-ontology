@@ -11,7 +11,7 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
     <owl:Ontology rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl">
         <owl:versionIRI rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"/>
-        <owl:imports rdf:resource="http://materialdigital.de/eswc2021"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/pmd-onto-poster/main/pmd-onto.ttl"/>
         <rdfs:comment>This file contains externally imported content from the Information Artifact Ontology (IAO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT from the list of selected terms (iao-extract-w-hierarchy.txt, iao-extract-n-hierarchy.txt) located in the OEO-tools repository.</rdfs:comment>
     </owl:Ontology>
     
