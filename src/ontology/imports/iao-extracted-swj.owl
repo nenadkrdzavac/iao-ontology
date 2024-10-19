@@ -1219,6 +1219,11 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </owl:Class>
     
 
+    <owl:Class rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00000000_new_class_not_merged_to_dev">
+        <rdfs:comment>IAO_00000000_new_class_not_merged_to_dev</rdfs:comment>
+        <rdfs:label>IAO_00000000_new_class_not_merged_to_dev</rdfs:label>
+    </owl:Class>
+	
     <owl:Class rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00000000_added_new_class_to_iao_swj">
         <rdfs:comment>New class IAO_00000000_added_new_class_to_iao_swj is added</rdfs:comment>
         <rdfs:label>IAO_00000000_added_new_class_to_iao_swj</rdfs:label>
