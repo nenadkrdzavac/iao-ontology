@@ -1,0 +1,441 @@
+format-version: 1.2
+data-version: http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl
+idspace: prov http://www.w3.org/ns/prov# 
+idspace: swrla http://swrl.stanford.edu/ontologies/3.3/swrla.owl# 
+remark: This file contains externally imported content from the Information Artifact Ontology (IAO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT from the list of selected terms (iao-extract-w-hierarchy.txt, iao-extract-n-hierarchy.txt) located in the OEO-tools repository.
+ontology: http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901>))\nDeclaration(ObjectProperty(<http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901> (<http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901>)\n\nEquivalentClasses(<http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901> ObjectAllValuesFrom(<http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810> <http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901>))\n\n\n)
+
+[Term]
+id: IAO:0000005
+name: objective specification {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000033 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! directive information entity
+property_value: IAO:0000111 "objective specification" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "In the protocol of a ChIP assay the objective specification says to identify protein and DNA interaction." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000122 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: original definition when imported from OBI read: \"objective is an non realizable information entity which can serve as that  proper part of a plan towards which the realization of the plan is directed.\"" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2014-03-31: In the example of usage (\"In the protocol of a ChIP assay the objective specification says to identify protein and DNA interaction\") there is a protocol which is the ChIP assay protocol. In addition to being concretized on paper, the protocol can be concretized as a realizable entity, such as a plan that inheres in a person. The objective specification is the part that says that some protein and DNA interactions are identified. This is a specification of a process endpoint: the boundary in the process before which they are not identified and after which they are. During the realization of the plan, the goal is to get to the point of having the interactions, and participants in the realization of the plan try to do that." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "Answers the question, why did you do this experiment?" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Barry Smith" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Jennifer Fostel" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000118 "goal specification" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI Plan and Planned Process/Roles Branch" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000217" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000007
+name: action specification {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A directive information entity that describes an action the bearer will take." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000033 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! directive information entity
+property_value: IAO:0000112 "Pour the contents of flask 1 into flask 2" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000122 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI Plan and Planned Process branch" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000010
+name: software {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "Software is a plan specification composed of a series of instructions that can be \ninterpreted by or directly executed by a processing unit." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000104 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! plan specification
+property_value: IAO:0000111 "software" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000120 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "see sourceforge tracker discussion at http://sourceforge.net/tracker/index.php?func=detail&aid=1958818&group_id=177891&atid=886178" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000118 "Software-Entwickler" xsd:string
+property_value: IAO:0000118 "Software-Entwicklerin" xsd:string
+property_value: IAO:0000119 "GROUP: OBI" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000013
+name: journal article {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A report that is published in a journal." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000111 "journal article" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "Examples are articles published in the journals, Nature and Science. The content can often be cited by reference to a paper based encoding, e.g.  Authors, Title of article, Journal name, date or year of publication, volume and page number." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000120 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "group:OBI" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000159" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000025
+name: programming language {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000104 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! plan specification
+property_value: IAO:0000111 "programming language" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "R, Perl, Java" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000120 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "person:Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "person:Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "group:OBI" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000058" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000027
+name: data item {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000030 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! information content entity
+property_value: IAO:0000111 "data item" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "Data items include counts of things, analyte concentrations, and statistical summaries." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000125 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "JAR: datum     -- well, this will be very tricky to define, but maybe some \ninformation-like stuff that might be put into a computer and that is \nmeant, by someone, to denote and/or to be interpreted by some \nprocess... I would include lists, tables, sentences... I think I might \ndefer to Barry, or to Brian Cantwell Smith\n\nJAR: A data item is an approximately justified approximately true approximate belief" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Jonathan Rees" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000118 "data" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000028
+name: symbol {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000030 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! information content entity
+property_value: IAO:0000111 "symbol" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "a serial number such as \"12324X\"" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "a stop sign" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "a written proper name such as \"OBI\"" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000125 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "20091104, MC: this needs work and will most probably change" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2014-03-31: We would like to have a deeper analysis of 'mark' and 'sign' in the future (see https://github.com/information-artifact-ontology/IAO/issues/154)." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: James A. Overton" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Jonathan Rees" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "based on Oxford English Dictionary" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000030
+name: information content entity {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A generically dependent continuant that is about some thing." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000111 "information content entity" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "Examples of information content entites include journal articles, data, graphical layouts, and graphs." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000122 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ)." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).\n\nPrevious. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000142" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000033
+name: directive information entity {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "An information content entity whose concretizations indicate to their bearer how to realize them in a process." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000030 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! information content entity
+property_value: IAO:0000114 IAO:0000122 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: provenance: a term realizable information entity was proposed for OBI (OBI_0000337) , edited by the PlanAndPlannedProcess branch. Original definition was  \"is the specification of a process that can be concretized and realized by an actor\" with alternative term  \"instruction\".It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2013-05-30 Alan Ruttenberg: What differentiates a directive information entity from an information concretization is that it can have concretizations that are either qualities or realizable entities. The concretizations that are realizable entities are created when an individual chooses to take up the direction, i.e. has the intention to (try to) realize it." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "8/6/2009 Alan Ruttenberg: Changed label from \"information entity about a realizable\" after discussions at ICBO" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "Werner pushed back on calling it realizable information entity as it isn't realizable. However this name isn't right either. An example would be a recipe. The realizable entity would be a plan, but the information entity isn't about the plan, it, once concretized, *is* the plan. -Alan" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Bjoern Peters" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000064
+name: algorithm {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A plan specification which describes the inputs and output of mathematical functions as well as workflow of execution for achieving an predefined objective. Algorithms are realized usually by means of implementation as computer programs for execution by automata." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000104 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! plan specification
+property_value: IAO:0000111 "algorithm" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "PMID: 18378114.Genomics. 2008 Mar 28. LINKGEN: A new algorithm to process data in genetic linkage studies." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000120 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Philippe Rocca-Serra" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PlanAndPlannedProcess Branch" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "adapted from discussion on OBI list (Matthew Pocock, Christian Cocos, Alan Ruttenberg)" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000270" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000088
+name: report {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record)." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000310 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! document
+property_value: IAO:0000111 "report" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "Examples of reports are gene lists and investigation reports. These are not published (journal) articles but may be included in a journal article." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000125 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: comment from Darren Natale: I am slightly uneasy with the sentence \"Topic of the report is on \nsomething that has completed.\"  Should it be restricted to those things \nthat are completed?  For example, a progress report is (usually) about \nsomething that definitely has *not* been completed, or may include \n(only) projections.  I think the definition would not suffer if the \nwhole sentence is deleted." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: this was report of results with definition: A report is a narrative object that is a formal statement of the results of an investigation, or of any matter on which definite information is required, made by some person or body instructed or required to do so." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-08-10 Alan Ruttenberg: Larry Hunter suggests that this be obsoleted and replaced by 'document'. Alan restored as there are OBI dependencies and this merits further discussion" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "disagreement about where reports go. alan: only some gene lists are reports. Is a report all the content of some document? The example of usage suggests that a report may be part of  some article. Term needs clarification" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "GROUP: OBI" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000099" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000098
+name: data format specification {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A data format specification is the information content borne by the document published defining the specification.\nExample: The ISO document specifying what encompasses an XML document; The instructions in a XSD file" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000033 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! directive information entity
+property_value: IAO:0000111 "data format specification" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: provenance: term imported from OBI_0000187, which had original definition \"A data format specification is a plan which organizes\ninformation. Example: The ISO document specifying what encompasses an\nXML document; The instructions in a XSD file\"" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PlanAndPlannedProcess Branch" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI branch derived" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000187" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000100
+name: data set {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000027 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! data item
+property_value: IAO:0000111 "data set" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves)." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000125 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009/10/23 Alan Ruttenberg. The intention is that this term represent collections of like data. So this isn't for, e.g. the whole contents of a cel file, which includes parameters, metadata etc. This is more like java arrays of a certain rather specific type" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2014-05-05: Data sets are aggregates and thus must include two or more data items. We have chosen not to add logical axioms to make this restriction." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "person:Allyson Lister" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "person:Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "group:OBI" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000042" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000104
+name: plan specification {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+comment: 2/3/2009 Comment from OBI review.\n\nAction specification not well enough specified.\nConditional specification not well enough specified.\nQuestion whether all plan specifications have objective specifications.\n\nRequest that IAO either clarify these or change definitions not to use them {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000033 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! directive information entity
+property_value: IAO:0000111 "plan specification" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "PMID: 18323827.Nat Med. 2008 Mar;14(3):226.New plan proposed to help resolve conflicting medical advice." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000122 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-03-16: provenance: a term a plan was proposed for OBI (OBI_0000344) , edited by the PlanAndPlannedProcess branch. Original definition was \" a plan is a specification of a process that is realized by an actor to achieve the objective specified as part of the plan\". It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2014-03-31: A plan specification can have other parts, such as conditional specifications." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2022-01-16 Updated definition to that proposed by Clint Dowloand, IAO Issue 231." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "Alternative previous definition: a plan is a set of instructions that specify how an objective should be achieved" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Clint Dowland" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI Plan and Planned Process branch" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000344" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+property_value: seeAlso "https://github.com/information-artifact-ontology/IAO/issues/231#issuecomment-1010455131" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+
+[Term]
+id: IAO:0000109
+name: measurement datum {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000027 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! data item
+property_value: IAO:0000111 "measurement datum" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "Examples of measurement data are the recoding of the weight of a mouse as {40,mass,\"grams\"}, the recording of an observation of the behavior of the mouse {,process,\"agitated\"}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000125 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2/2/2009 is_specified_output of some assay?" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "person:Chris Stoeckert" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "group:OBI" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "OBI_0000305" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000129
+name: version number {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A version number is an information content entity which is a sequence of characters borne by part of each of a class of manufactured products or its packaging and indicates its order within a set of other products having the same name." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000028 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! symbol
+property_value: IAO:0000111 "version number" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "Note: we feel that at the moment we are happy with a general version number, and that we will subclass as needed in the future. For example, see 7. genome sequence version" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "GROUP: IAO" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000300
+name: textual entity {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000030 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! information content entity
+property_value: IAO:0000111 "textual entity" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "Words, sentences, paragraphs, and the written (non-figure) parts of publications are all textual entities" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "AR, (IAO call 2009-09-01): a document as a whole is not typically a textual entity, because it has pictures in it - rather there are parts of it that are textual entities. Examples: The title, paragraph 2 sentence 7, etc." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "MC, 2009-09-14 (following IAO call 2009-09-01): textual entities live at the FRBR (http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records) manifestation level. Everything is significant: line break, pdf and html versions of same document are different textual entities." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Lawrence Hunter" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000118 "text" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000310
+name: document {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A collection of information content entities intended to be understood together as a whole" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000030 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! information content entity
+property_value: IAO:0000111 "document" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "A journal article, patent application, laboratory notebook, or a book" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000120 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Lawrence Hunter" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000314
+name: document part {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "An information content entity that is part of a document." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000030 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! information content entity
+property_value: IAO:0000111 "document part" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "An abstract, introduction, method or results section." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000120 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Lawrence Hunter" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000400
+name: cartesian spatial coordinate datum {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A cartesian spatial coordinate datum is a representation of a point in a spatial region, in which equal changes in the magnitude of a coordinate value denote length qualities with the same magnitude" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000027 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! data item
+property_value: IAO:0000114 IAO:0000120 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "2009-08-18 Alan Ruttenberg - question to BFO list about whether the BFO sense of the lower dimensional regions is that they are always part of actual space (the three dimensional sort) http://groups.google.com/group/bfo-discuss/browse_thread/thread/9d04e717e39fb617" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000232 "AR notes: We need to discuss whether it should include site." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+property_value: seeAlso "http://groups.google.com/group/bfo-discuss/browse_thread/thread/9d04e717e39fb617" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+
+[Term]
+id: IAO:0000401
+name: one dimensional cartesian spatial coordinate datum {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A cartesion spatial coordinate datum that  uses one value to specify a position along a one dimensional spatial region" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000400 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! cartesian spatial coordinate datum
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000402
+name: two dimensional cartesian spatial coordinate datum {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A cartesion spatial coordinate datum that  uses two values to specify a position within a two dimensional spatial region" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000400 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! cartesian spatial coordinate datum
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000403
+name: three dimensional cartesian spatial coordinate datum {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A cartesion spatial coordinate datum that  uses three values to specify a position within a three dimensional spatial region" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000400 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! cartesian spatial coordinate datum
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000582
+name: time stamped measurement datum {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000109 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! measurement datum
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000591
+name: software method {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A software method (also called subroutine, subprogram, procedure, method, function, or routine) is software designed to execute a specific task." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000010 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! software
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Michel Dumontier" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "https://github.com/information-artifact-ontology/IAO/issues/80" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000592
+name: software module {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A software module is software composed of a collection of software methods." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000010 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! software
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Melanei Courtot" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Michel Dumontier" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "https://github.com/information-artifact-ontology/IAO/issues/80" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000593
+name: software library {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A software library is software composed of a collection of software modules and/or software methods in a form that can be statically or dynamically linked to some software application." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000010 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! software
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Michel Dumontier" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "https://github.com/information-artifact-ontology/IAO/issues/80" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000594
+name: software application {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A software application is software that can be directly executed by some processing unit." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000010 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! software
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Michel Dumontier" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "https://github.com/information-artifact-ontology/IAO/issues/80" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO:0000595
+name: software script {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A software script is software whose instructions can be executed using a software interpreter." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000010 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! software
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "PERSON: Michel Dumontier" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000119 "https://github.com/information-artifact-ontology/IAO/issues/80" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Term]
+id: IAO_00000000
+name: IAO_00000000
+comment: New class is added
+
+[Term]
+id: IAO_00005901
+name: name
+comment: This commend is added due to class change, i.e. added rdfs comment.
+is_a: IAO:0000300 ! textual entity
+
+[Term]
+id: OBI:0500000
+name: study design {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution." [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+is_a: IAO:0000104 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! plan specification
+property_value: IAO:0000111 "study design" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+
+[Typedef]
+id: BFO:0000051
+name: has part {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "a core relation that holds between a whole and its part" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000111 "has part" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "my body has part my brain (continuant parthood, two material entities)" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000118 "has_part" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+property_value: RO:0001900 RO:0001901 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+
+[Typedef]
+id: IAO:0000581
+name: has time stamp {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+def: "relates a time stamped measurement datum to the time measurement datum that denotes the time when the measurement was taken" [] {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000114 IAO:0000123 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"}
+property_value: isDefinedBy http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl
+is_a: BFO:0000051 {prov:wasDerivedFrom="http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl"} ! has part
+
+[Typedef]
+id: IAO_00005810
+name: has name
+comment: This is commend added to property as a change operation.
+
