@@ -1019,9 +1019,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810 -->
+    <!-- http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810_new_property -->
 
-    <owl:ObjectProperty rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810">
+    <owl:ObjectProperty rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810_new_property">
         <rdfs:comment>This is commend added to property as a change operation.</rdfs:comment>
         <rdfs:label>has name</rdfs:label>
     </owl:ObjectProperty>
@@ -1218,7 +1218,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810"/>
+                <owl:onProperty rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005810_new_property"/>
                 <owl:allValuesFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl#IAO_00005901"/>
             </owl:Restriction>
         </owl:equivalentClass>
